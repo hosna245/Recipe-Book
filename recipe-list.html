@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe List</title>
+  <style>
+    .gallery { display: flex; gap: 20px; }
+    .recipe-card { border: 1px solid #ccc; padding: 10px; width: 200px; }
+    img { width: 100%; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="add-recipe.html">Add Recipe</a>
+      <a href="recipe-list.html">Recipe List</a>
+    </nav>
+  </header>
+
+  <h1>All Recipes</h1>
+
+  <label>Filter by Category:
+    <select>
+      <option>All</option>
+      <option>Desserts</option>
+      <option>Vegan</option>
+    </select>
+  </label>
+
+  <div class="gallery">
+    <div class="recipe-card">
+      <h3>Sushi</h3>
+      <img src="https://avatars.mds.yandex.net/i?id=5dfa720ab4aa7c54d41d7c40822f232f_l-5370538-images-thumbs&n=13" alt="Sushi">
+      <p>A fresh and flavorful sushi roll that's simple to prepare.</p>
+      <a href="recipe-details.html">View Details</a>
+    </div>
+ 
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Recipe Book</p>
+  </footer>
+</body>
+</html>

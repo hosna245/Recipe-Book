@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add a Recipe</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="add-recipe.html">Add Recipe</a>
+      <a href="recipe-list.html">Recipe List</a>
+    </nav>
+  </header>
+
+  <h1>Add Your Recipe</h1>
+  <form>
+    <label>Recipe Name:<br>
+      <input type="text" name="recipeName" required>
+    </label><br><br>
+
+    <label>Ingredients:<br>
+      <textarea name="ingredients" required></textarea>
+    </label><br><br>
+
+    <label>Cooking Instructions:<br>
+      <textarea name="instructions" required></textarea>
+    </label><br><br>
+
+    <label>Image URL:<br>
+      <input type="url" name="imageUrl">
+    </label><br><br>
+
+    <label>Category:<br>
+      <select name="category" required>
+        <option value="">--Select--</option>
+        <option value="Desserts">Desserts</option>
+        <option value="Appetizers">Appetizers</option>
+        <option value="Main Course">Main Course</option>
+        <option value="Vegan">Vegan</option>
+      </select>
+    </label><br><br>
+
+    <button type="submit">Add Recipe</button>
+  </form>
+
+  <footer>
+    <p>&copy; 2025 My Recipe Book</p>
+  </footer>
+</body>
+</html>
